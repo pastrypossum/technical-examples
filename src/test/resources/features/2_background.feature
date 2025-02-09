@@ -11,10 +11,10 @@ Feature: 2) Using background
     When Robert takes an action under test
     Then he will see a result
 
-  Scenario: Test with background 1
+  Scenario: Test with background 2
     When Robert takes an action under test
     Then he will see a result
 
-  Scenario: Test with background 1
+  Scenario: Test with background 3
     When Robert takes an action under test
     Then he will see a result
