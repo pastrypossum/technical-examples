@@ -17,15 +17,15 @@ Feature: 4) Using scenarios
 
   Scenario Outline: Iterative scenario
     Given Robert has prepared the environment
-    When he takes an action under test
+    When he repeats an action with "<Parameter 1>" and "<Parameter 2>"
     Then he will see a result
 
     Examples: Set 1
       | Parameter 1 | Parameter 2 |
       | one         | two         |
-      | one         | two         |
+      | three       | four        |
 
     Examples: Set 1
       | Parameter 1 | Parameter 2 |
-      | one         | two         |
-      | one         | two         |
+      | five        | six         |
+      | seven       | eight       |

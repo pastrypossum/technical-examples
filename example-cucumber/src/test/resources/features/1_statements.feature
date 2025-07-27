@@ -9,6 +9,8 @@ Feature: 1) Using statements
   However the function is determined by the text / parameters
   For example @Given can trigger @When or @Then
 
+  These prefix values are there to guide you and make it more readable
+
 
   Scenario: Most common statements
     Given Robert has prepared the environment
