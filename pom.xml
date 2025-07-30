@@ -22,7 +22,8 @@
   </properties>
 
   <modules>
-    <module>example-cucumber</module>
+      <module>example-cucumber</module>
+      <module>examples-java</module>
   </modules>
 
 </project>
